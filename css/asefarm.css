@@ -1,0 +1,27 @@
+:root {
+  --emp-color: #586871;
+  --emp-color-hov: #895C77;
+  --por-project-hov: rgba(137,92,119,.7);
+}
+.btn-contacto{
+  background: var(--emp-color);  
+}
+
+.btn-contacto:hover{
+  background: var(--emp-color-hov);  
+}
+
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: var(--emp-color);
+}
+
+.asefarm-contact{
+  background: var(--emp-color) ;
+  color:rgb(211, 199, 199);
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+  background: var(--por-project-hov) ;
+}
