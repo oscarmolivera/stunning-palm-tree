@@ -4,11 +4,11 @@
   --por-project-hov: rgba(137,92,119,.7);
 }
 .btn-contacto{
-  background: var(--emp-color);  
+  background: var(--emp-color);
 }
 
 .btn-contacto:hover{
-  background: var(--emp-color-hov);  
+  background: var(--emp-color-hov);
 }
 
 hr.divider {
@@ -24,4 +24,7 @@ hr.divider {
 
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
   background: var(--por-project-hov) ;
+}
+.brand-logo{
+  height: 145px
 }
